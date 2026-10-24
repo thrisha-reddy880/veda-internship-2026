@@ -1,0 +1,9 @@
+EmployeeID,Name,Department,Salary
+101,Tara,IT,45000
+102,Bharathi,HR,38000
+103,Thrisha,Finance,52000
+104,Ammulu,IT,60000
+105,Kyathi,Marketing,42000
+106,InvalidEmployee,IT,-5000
+107,Maya,,35000
+108,Tharuni,Finance,48000
