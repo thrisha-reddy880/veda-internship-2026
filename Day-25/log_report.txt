@@ -1,0 +1,18 @@
+LOG FILE ANALYSIS REPORT
+=========================
+Total Lines: 10
+Valid Log Lines: 9
+Malformed Lines: 1
+INFO Count: 4
+WARNING Count: 2
+ERROR Count: 3
+
+ERROR DETAILS
+-------------
+2026-10-25 09:03:20 ERROR Database connection failed
+2026-10-25 09:05:30 ERROR File not found
+2026-10-25 09:08:45 ERROR Payment processing failed
+
+MALFORMED LOG LINES
+-------------------
+INVALID LOG ENTRY
