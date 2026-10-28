@@ -1,0 +1,3 @@
+Programming helps solve problems.
+Java supports object-oriented programming.
+ExecutorService manages worker threads.
