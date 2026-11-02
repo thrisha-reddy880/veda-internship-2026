@@ -30,11 +30,19 @@ It allows users to add, view, search, update, and delete student records while a
 
 ```text
 Day-33/
+│
 ├── Student.java
 ├── Subject.java
 ├── Grade.java
 ├── StudentGradeManagementSystem.java
-└── README.md
+├── README.md
+│
+└── screenshots/
+    ├── main-menu.png
+    ├── add-student.png
+    ├── add-subject-marks.png
+    ├── student-report.png
+    └── performance-summary.png
 ```
 
 ## ✨ Features
