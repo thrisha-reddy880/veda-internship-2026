@@ -1,0 +1,18 @@
+VEDA TECHNOLOGY - SAMPLE DATASET
+
+SERVICES
+1, Web Development, IT Services, Website development, 15000
+
+TRAINING PROGRAMS
+2, Java Training, Training, Core Java programming, 6 weeks
+
+INTERNSHIP PROGRAMS
+3, Software Internship, Internship, Practical software development, 8 weeks
+
+CUSTOMERS
+1, Rahul, rahul@example.com, 9876543210
+2, Priya, priya@example.com, 9876501234
+
+INQUIRIES
+1, 1, Website Development, IT Services, Pending
+2, 2, Java Training Details, Training, Resolved
