@@ -1,0 +1,7 @@
+1|Lunch|Food|250.0|2026-11-09
+2|Bus Ticket|Transport|100.0|2026-11-09
+3|Java Course|Education|1500.0|2026-11-09
+4|Shopping|Shopping|800.0|2026-11-08
+5|Medicine|Health|350.0|2026-11-07
+6|Movie Ticket|Entertainment|200.0|2026-11-06
+7|lunch|Food|2560.0|2026-09-26
