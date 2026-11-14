@@ -1,0 +1,5 @@
+M01|Anu|anu@example.com
+M02|Ravi|ravi@example.com
+M03|Priya|priya@example.com
+M04|Kiran|kiran@example.com
+A4421|Thrisha|thrisha21@gmail.com
