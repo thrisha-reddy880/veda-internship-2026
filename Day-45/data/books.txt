@@ -1,0 +1,5 @@
+101|Java Basics|James|Programming|true
+102|Python Programming|Guido|Programming|true
+103|Data Structures|Mark Allen|Computer Science|true
+104|Database Management|Navathe|Database|true
+105|Operating Systems|Galvin|Computer Science|true
