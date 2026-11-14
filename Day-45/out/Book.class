@@ -1,0 +1,65 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class Book {
+   private final String isbn;
+   private final String title;
+   private final String author;
+   private final String category;
+   private boolean available;
+
+   public Book(String var1, String var2, String var3, String var4) {
+      this(var1, var2, var3, var4, true);
+   }
+
+   public Book(String var1, String var2, String var3, String var4, boolean var5) {
+      this.isbn = clean(var1);
+      this.title = clean(var2);
+      this.author = clean(var3);
+      this.category = clean(var4);
+      this.available = var5;
+   }
+
+   private static String clean(String var0) {
+      return var0 == null ? "" : var0.trim().replace("|", "/").replace("\n", " ");
+   }
+
+   public String getIsbn() {
+      return this.isbn;
+   }
+
+   public String getTitle() {
+      return this.title;
+   }
+
+   public String getAuthor() {
+      return this.author;
+   }
+
+   public String getCategory() {
+      return this.category;
+   }
+
+   public boolean isAvailable() {
+      return this.available;
+   }
+
+   public void setAvailable(boolean var1) {
+      this.available = var1;
+   }
+
+   public String toFileLine() {
+      return this.isbn + "|" + this.title + "|" + this.author + "|" + this.category + "|" + this.available;
+   }
+
+   public static Book fromFileLine(String var0) {
+      String[] var1 = var0.split("\\|", -1);
+      if (var1.length != 5) {
+         throw new IllegalArgumentException("Invalid book record");
+      } else {
+         return new Book(var1[0], var1[1], var1[2], var1[3], Boolean.parseBoolean(var1[4]));
+      }
+   }
+
+   public String toString() {
+      return String.format("ISBN: %s | Title: %s | Author: %s | Category: %s | Status: %s", this.isbn, this.title, this.author, this.category, this.available ? "Available" : "Issued");
+   }
+}
